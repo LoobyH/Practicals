@@ -61,4 +61,7 @@ dependencies {
     //Google LiveData和ViewModel组件
     api rootProject.ext.dependencies["lifecycle-extensions"]
     annotationProcessor rootProject.ext.dependencies["lifecycle-compiler"]
+    api 'com.android.support.test:runner:1.0.2'
+    api 'com.android.support.test:rules:1.0.2'
+    api 'com.android.support.test.uiautomator:uiautomator-v18:2.1.3'
 }
